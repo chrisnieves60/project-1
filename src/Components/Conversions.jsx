@@ -68,7 +68,7 @@ const Conversions = () => {
                onClick={handleClick}>
                 Convert
               </button>
-              <button onClick={updateData}>Update Data</button>
+              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full ml-5" onClick={updateData}>Update Data</button>
             <br/>
             <p className="text-white">{btcConversion==undefined ? '' : 'BTC:'} {btcConversion}</p>
         </div>
